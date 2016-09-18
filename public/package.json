@@ -1,0 +1,25 @@
+{
+  "name": "forms-in-node.js",
+  "version": "1.0.0",
+  "description": "This project demonstrates how to use forms in Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlinaIo/tdt.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Alina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlinaIo/tdt/issues"
+  },
+  "homepage": "https://github.com/AlinaIo/tdt#readme",
+  "dependencies": {
+    "formidable": "^1.0.17"
+  }
+}
