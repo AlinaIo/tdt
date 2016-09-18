@@ -1,25 +1,7 @@
-/**
- * Created by tdt on 17.09.2016.
- */
 var http = require('http');
 var fs = require('fs');
 var formidable = require("formidable");
 var util = require('util');
-
-// var server = http.createServer(function (req, res) {
-//     displayForm(res);
-// });
-//
-// function displayForm(res) {
-//     fs.readFile('public/login.html', function (err, data) {
-//         res.writeHead(200, {
-//             'Content-Type': 'text/html',
-//             'Content-Length': data.length
-//         });
-//         res.write(data);
-//         res.end();
-//     });
-// }
 
 var server = http.createServer(function (req, res) {
     if (req.method.toLowerCase() == 'get') {
@@ -31,7 +13,7 @@ var server = http.createServer(function (req, res) {
 });
 
 function displayForm(res) {
-    fs.readFile('public/login.html', function (err, data) {
+    fs.readFile('form.html', function (err, data) {
         res.writeHead(200, {
             'Content-Type': 'text/html',
             'Content-Length': data.length
@@ -60,5 +42,5 @@ function processAllFieldsOfTheForm(req, res) {
 }
 
 
-server.listen(8081);
-console.log('Server running at http://127.0.0.1:8081/');
+server.listen(1185);
+console.log("Server running at http://127.0.0.1:1185/");
