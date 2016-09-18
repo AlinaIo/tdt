@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="281c0ff4-ab2c-48b0-b12e-48e2a09e49cf" name="Default" comment="initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/success.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/servertests/form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/servertests/getRequest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/servertests/postRequest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/servertests/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+    <list default="true" id="281c0ff4-ab2c-48b0-b12e-48e2a09e49cf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app.js" afterPath="$PROJECT_DIR$/public/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/login.html" afterPath="$PROJECT_DIR$/public/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/login.js" afterPath="$PROJECT_DIR$/public/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/package.json" afterPath="$PROJECT_DIR$/public/package.json" />
     </list>
     <ignored path="loginproj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -347,7 +336,7 @@
       <workItem from="1474140406255" duration="11517000" />
       <workItem from="1474182466769" duration="7395000" />
       <workItem from="1474193575396" duration="103000" />
-      <workItem from="1474193700614" duration="400000" />
+      <workItem from="1474193700614" duration="421000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1474178777200</created>
@@ -356,11 +345,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474178777200</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1474194115495</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1474194115495</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19415000" />
+    <option name="totallyTimeSpent" value="19436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="639" y="64" width="1396" height="938" extended-state="0" />
@@ -590,6 +586,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -612,6 +609,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
