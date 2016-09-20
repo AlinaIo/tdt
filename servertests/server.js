@@ -14,11 +14,13 @@ var server = http.createServer(function (req, res) {
 
 function displayForm(res) {
     fs.readFile('form.html', function (err, data) {
-        res.writeHead(200, {
-            'Content-Type': 'text/html',
-            'Content-Length': data.length
-        });
-        res.write(data);
+        if (undefined !== data && data.length){
+            res.writeHead(200, {
+                'Content-Type': 'text/html',
+                'Content-Length': data.length
+            });
+            res.write(data);
+        }
         res.end();
     });
 }
@@ -41,6 +43,13 @@ function processAllFieldsOfTheForm(req, res) {
     });
 }
 
+exports.listen = function () {
+    this.server.listen.apply(this.server, arguments);
+};
+
+exports.close = function (callback) {
+    this.server.close(callback);
+};
 
 server.listen(1185);
 console.log("Server running at http://127.0.0.1:1185/");
